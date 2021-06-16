@@ -1,0 +1,25 @@
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,input, button {
+    font-size: 1.2em;
+}
+button{
+    background-color: teal;
+    color: white;
+    border-radius: 8px;
+}
+li{
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: lightyellow;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+li button{
+    font-size: 0.8em;
+    margin-left: 2em;
+    background-color: red;
+    float: right;
+}

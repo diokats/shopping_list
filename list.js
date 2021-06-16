@@ -25,9 +25,13 @@ addedItem.addEventListener("keyup", (k) =>{
 
  function addItem(){
      console.log(addedItem.value)
-     let newItem = addedItem.value
+     let newItem = addedItem.value;
      if (newItem.length > 0){
             let item = document.createElement("li")
+            item.style.width ="100%";
+            item.style.maxWidth = "20em";
+            item.style.padding ="0.5em";
+            item.style.fontSize = "1.2em";
             item.textContent = newItem;
             let itemButton = document.createElement("button");
             itemButton.textContent = "Delete";
